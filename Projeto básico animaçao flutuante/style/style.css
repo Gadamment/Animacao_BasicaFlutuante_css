@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+	background: black;
+	box-sizing: border-box;
+
+}
+
+div.carregandocontainer{
+	width: 100%;
+}
+
+
+div.carregando{
+	width: 400px;
+	height: 100%;
+	margin: 0px auto;
+	margin-top: 200px;
+}
+
+div.carregando{
+	transform: translateY(0px);
+	animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float{
+	0%{
+		transform: translateY(0px);
+	}
+	50%{
+		transform: translateY(-30px);
+	}
+	100%{
+		transform: translateY(0px);
+	}
+}
+
+div.pikachucontainer{
+	margin-top: -180px;
+	margin-left: 100px;
+}
+
+div.pikachucontainer2{
+	width: 350px;
+	float: right;
+	margin-top: -270px;
+	margin-right: 150px;
+}
+
+div.containerall{
+	min-width: 1280px;
+	margin:0 auto;
+}
